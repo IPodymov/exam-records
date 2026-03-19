@@ -172,3 +172,37 @@ h1 {
     max-width: 100%;
     margin-top: 10px;
 }
+
+/* Styles for CheckboxSelectMultiple */
+.checkbox-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.checkbox-list li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.checkbox-list li:last-child {
+    border-bottom: none;
+}
+
+.checkbox-list label {
+    display: flex !important;
+    align-items: center;
+    font-weight: normal !important;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+
+.checkbox-list input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto !important;
+    height: auto !important;
+}
