@@ -1,0 +1,36 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn-cancel {
+    background-color: var(--btn-cancel-bg);
+    margin-right: 10px;
+}
+
+.btn-groups {
+    background-color: var(--btn-groups-bg);
+    margin-right: 10px;
+}
+
+.btn-nav-main {
+    background-color: var(--btn-cancel-bg);
+    margin-right: 10px;
+}
+
+.btn-search {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

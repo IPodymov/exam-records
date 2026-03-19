@@ -1,0 +1,39 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-actions {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Used for right-aligned button groups (legacy or specific pages) */
+.actions {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.actions-buttons {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.empty-state {
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 40px;
+    font-size: 1.2em;
+    color: #777;
+}
+
+.reset-search {
+    color: var(--primary-color);
+}

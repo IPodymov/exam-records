@@ -1,0 +1,103 @@
+/* General Forms */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--card-background);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.form-group input[type="text"],
+.form-group input[type="datetime-local"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+}
+
+.help-text {
+    display: block;
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+
+.image-preview {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* Search Form */
+.search-form {
+    flex-grow: 1; /* from inline style */
+    margin-right: 20px; /* from inline style */
+    display: flex; /* from inline style */
+}
+
+.search-input {
+    flex-grow: 1; /* from inline style */
+    padding: 10px; /* from inline style */
+    border: 1px solid #ddd; /* from inline style */
+    border-radius: 4px; /* from inline style */
+    border-top-right-radius: 0; /* from inline style */
+    border-bottom-right-radius: 0; /* from inline style */
+}
+
+/* Checkbox List */
+.checkbox-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.checkbox-list li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.checkbox-list li:last-child {
+    border-bottom: none;
+}
+
+.checkbox-list label {
+    display: flex !important;
+    align-items: center;
+    font-weight: normal !important;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+
+.checkbox-list input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto !important;
+    height: auto !important;
+}

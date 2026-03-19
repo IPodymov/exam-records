@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #f4f7f6;
+    --card-background: #ffffff;
+    --text-color: #333;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Button colors */
+    --btn-cancel-bg: #95a5a6;
+    --btn-groups-bg: #8e44ad;
+}
